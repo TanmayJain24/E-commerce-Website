@@ -85,26 +85,7 @@
         </div>
     </footer>
 
-    <script>
-
-        itemCount.addEventListener("input",()=>{
-
-            const itemCount = document.querySelector("#itemCount")
-            const subTotal = document.querySelector("#subTotal")
-            const total = document.querySelector("#total");
-            const tax = document.querySelector("#tax")
-
-            const st = 299*itemCount.value;
-            const tx = itemCount.value * 23.92;
-
-            subTotal.innerHTML = st;
-            tax.innerHTML = tx;
-            total.innerHTML = st+ tx;
-
-            // subTotal.innerHTML = "Hello"
-            // total.innerHTML = 
-        })
-    </script>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-PPmltI4DzdaNfQz9JdGpI3TZfvlw7irzjBn3wKgNmCUp0auj/uTPmSy7Ou1EP9J4" crossorigin="anonymous"></script>
 </body>
 </html>
